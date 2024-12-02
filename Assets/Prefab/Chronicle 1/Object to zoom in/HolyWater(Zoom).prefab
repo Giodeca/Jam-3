@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8818253926793820745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 293778359255143649}
+  - component: {fileID: 423146947976907880}
+  - component: {fileID: 6399805146130847160}
+  - component: {fileID: 1579902211207841112}
+  m_Layer: 0
+  m_Name: HolyWater(Zoom)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &293778359255143649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818253926793820745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8474541530941591743}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &423146947976907880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818253926793820745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ca326764178e04ab068a9653634d0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToIstantiace: {fileID: 8818253926793820745}
+  _Image: {fileID: 0}
+--- !u!65 &6399805146130847160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818253926793820745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1579902211207841112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818253926793820745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc2ba6ca1dab624eb697c5702d3fc42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraTransform: {fileID: 0}
+  Mask: {fileID: 0}
+  uniqueID: 0
+  TextPopUp: {fileID: 0}
+  text:
+  - An unused bottle of Holy Water
+  - Small enough to enter in a pocket
+  - The victim already knew its aggressor was a vampire
+  - So this person knew the Vampire society
+  - "A vampire? No. Impossibile\u2026 Perhaps\u2026 A ghoul?"
+--- !u!1001 &2459958648852921694
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 293778359255143649}
+    m_Modifications:
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697918520881510235, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+        type: 3}
+      propertyPath: m_Name
+      value: Pf_Holy_Water
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6efdc91b3a8a72f48892f5c847f0243d, type: 3}
+--- !u!4 &8474541530941591743 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6320830409858264545, guid: 6efdc91b3a8a72f48892f5c847f0243d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2459958648852921694}
+  m_PrefabAsset: {fileID: 0}

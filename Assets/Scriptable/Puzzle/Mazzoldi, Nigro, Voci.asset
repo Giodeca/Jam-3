@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1d2f6517729d24d8290b5475fa515a, type: 3}
+  m_Name: Mazzoldi, Nigro, Voci
+  m_EditorClassIdentifier: 
+  FirstPage: "**Auspex**\r\n\r\nAuspex is a Tremere discipline also owned by other
+    Cainite clans, such as Malkavian and Toreador\r\n\r\nIt has multiple functions,
+    most of which are useful in an investigation context. \r\n\r\nActivating the
+    discipline allows the Cainite to spot hidden objects or creatures, read particular
+    notes, and interact with objects trying to understand their past usage. \r\n\r\nAuspex
+    is one of the most useful Cainite disciplines. There are no details which can
+    remain a mystery to their owners.\r\n\r\n\r\n**Dominate**\r\n\r\nDominate is
+    a Tremere discipline also owned by other Cainite clans, such as Malkavian and
+    Ventrue\r\n\r\nIt has multiple functions, most of which are useful in many social
+    contexts.\r\nIt is mainly used to force people to do actions, reveal information
+    even modify their memory. \r\n\r\nDominate is a terrifying discipline if owned
+    by a powerful vampire. \r\nVenture are well known for their mastery in this discipline\u2026
+    \r\nProbably that\u2019s the reason why they have such influence in the Camarilla\r\n"
+  SecondPage: "**Blood Sorcery**\r\n\r\nBlood Sorcery is a unique Tremere discipline
+    owned by Tremeres. \r\n\r\nThis particular discipline doesn\u2019t provide just
+    powerful Cainite abilities but gives access to the owner to a real deck of sorceries.\r\n\r\nNovice
+    sorceries are not particularly effective, even if they are really useful, such
+    as the \u201Ctaste for blood Sorcery\u201D which allows the Cainite to understand
+    private and secret information by drinking other vampire blood. \r\n\r\nThe blood-warding
+    circles are also powerful sorceries that provide protection and crowd control\r\n"

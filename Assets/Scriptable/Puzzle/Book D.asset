@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1d2f6517729d24d8290b5475fa515a, type: 3}
+  m_Name: Book D
+  m_EditorClassIdentifier: 
+  FirstPage: "In the (grand) halls of the Elysium, where kindred gathered under the
+    5 ancient banners of the Camarilla, whispers of an unsettling prophecy spread
+    like wildfire. It was said that deep beneath the city, in the forgotten catacombs
+    where the veins of the earth met, a dark ritual had been performed. The Malkavian
+    seer, known for her cryptic visions, foretold of a looming threat from the EAST
+    \u2014 a coterie of Tremere magi who sought to awaken an ancient power.\r\nAmidst
+    the political intrigue and fragile alliances, whispers turned to murmurs of suspicion.
+    The Prince, a cunning Ventrue, convened an emergency conclave to address the
+    escalating tension. As night fell and the moon rose high in the sky, the fate
+    of the city hung in the balance. \n\nAAn Extract taken from \"Past Stories\"
+    from an unknown author\r\n"
+  SecondPage: 

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1d2f6517729d24d8290b5475fa515a, type: 3}
+  m_Name: Book C
+  m_EditorClassIdentifier: 
+  FirstPage: '"Nevertheless, the (TRUTH) of the matter is that when you arm them,
+    these mercenaries will not be loyal to you, and when they face the enemy, they
+    will be quick to desert. Thus, a wise prince will always avoid them, and instead,
+    he will prefer to rely on his own subjects or loyal allies. If a prince finds
+    himself in the nort-WEST of Italy, for instance, where the inclination of the
+    people is toward warfare, he would do well to organize his own forces, ensuring
+    they are well-trained and loyal.
+
+    If you look at the present state of affairs
+    in Italy, you will see how the decline of military prowess has led to the fall
+    of many states. To avoid such a fate, a prince must not only understand the art
+    of war but also know how to inspire his subjects to follow him faithfully. By
+    doing so, he will be able to maintain control over his state and ensure its prosperity.
+    Therefore, the truth remains that only 1 of those princes who arm themselves
+    with wisdom and their own troops can stand strong in the face of adversity."
+
+    
+
+    
+
+    Extract
+    taken from The Prince of Machiavelli
+
+'
+  SecondPage: 

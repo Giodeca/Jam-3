@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c36aa436027184897f0b71113e17e3, type: 3}
+  m_Name: Dialogue.C1_Chr.Witness01
+  m_EditorClassIdentifier: 
+  Background: {fileID: 0}
+  F_Name: Gabriele Colombo
+  S_Name: Traumatized Witness
+  F_Image: {fileID: 21300000, guid: b6b99e56d680afc498637df3a9ffbf17, type: 3}
+  S_Image: {fileID: 21300000, guid: b6b99e56d680afc498637df3a9ffbf17, type: 3}
+  FirstOnRight: 1
+  F_CharacterDialogues:
+  - text:
+    - "*This woman looks traumatized, she's shaking. She can barely bring the glass
+      to her mouth when drinking. And she\u2019s drinking strongly, I can smell the
+      alcohol from afar\u2026*\r\n\r\n"
+    - "Hello miss, I'm Gabriele Colombo, here\u2019s my police badge. Would you like
+      to tell me what happened? "
+  - text:
+    - "*She stares to void, I think she\u2019s blocked. I\u2019ll need to use my
+      abilities from now on*\r\n\r\nNow tell me everything you have heard. Talk slowly,
+      be precise, and don\u2019t omit any detail\r\n\r\n"
+  S_CharacterDialogues:
+  - text:
+    - "C-ciao.. Mr Colombo, I\u2019m Martina Frenzetti\u2026 about the ThIng I heard
+      from the bathroom\u2026. W-well\u2026 Once i\u2026 \r\n\r\n\u2026 The woman
+      starts shaking again, then she starts crying. It\u2019s impossible to understand
+      what she\u2019s trying to say.\r\n \r\n\r\n"
+  endScene: 0

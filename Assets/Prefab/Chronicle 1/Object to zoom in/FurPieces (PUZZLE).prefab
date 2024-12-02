@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2715875801994595970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1751157052773810608}
+  - component: {fileID: 2073117101823180673}
+  - component: {fileID: 6877671338537847041}
+  m_Layer: 0
+  m_Name: FurPieces (PUZZLE)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1751157052773810608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715875801994595970}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.318, y: 0.837, z: 50.276}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 962637130257431647}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2073117101823180673
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715875801994595970}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3002834, y: 1, z: 1.3343582}
+  m_Center: {x: -0.0058374405, y: 0, z: -0.009498596}
+--- !u!114 &6877671338537847041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715875801994595970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc2ba6ca1dab624eb697c5702d3fc42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraTransform: {fileID: 0}
+  Mask: {fileID: 0}
+  uniqueID: 0
+  TextPopUp: {fileID: 0}
+  text:
+  - Those are fur pieces
+  - "It\u2019s impossible they belong to an animal"
+  - Animals have no access to the nightclub
+  - Our dear Gangrel must be involved for sure.
+--- !u!1001 &7108140572427200958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1751157052773810608}
+    m_Modifications:
+    - target: {fileID: 7256734698128838491, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_Name
+      value: PF_Fur_Pieces
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8942cbf43c14db4481a730a39b5a961, type: 3}
+--- !u!4 &962637130257431647 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8070109056805164513, guid: c8942cbf43c14db4481a730a39b5a961,
+    type: 3}
+  m_PrefabInstance: {fileID: 7108140572427200958}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c36aa436027184897f0b71113e17e3, type: 3}
+  m_Name: Dialogue.C0_Intro_02_Camillo
+  m_EditorClassIdentifier: 
+  Background: {fileID: 0}
+  F_Name: Camillo Benso
+  S_Name: Gabriele Colombo
+  F_Image: {fileID: 21300000, guid: 78884055bc9b70f40acebb4656030711, type: 3}
+  S_Image: {fileID: 21300000, guid: b6b99e56d680afc498637df3a9ffbf17, type: 3}
+  FirstOnRight: 1
+  F_CharacterDialogues:
+  - text:
+    - "Welcome in Turin, Gabriele, from the Colombo\u2019s family. "
+    - "It\u2019s a pleasure to have the delegate of Machiavelli,  Prince of Rome
+      and Italy\u2019s, in our court.\r\n\r\n"
+    - Welcome to my house and my reign
+  - text:
+    - "Of course, of course\u2026."
+    - "I haven\u2019t understood why Machiavelli sent you there.\nAn honorable member
+      of the Tremere\u2019s clan, I wish you can meet some of your dear. "
+    - "The Tremere\u2019s settlement stands near the Mole Antonelliana.\r\n"
+    - I have heard your mask is a police coroner, is that correct?
+  - text:
+    - "*An Ancilla appears right behind the Count, whispering him something*\r\n*Even
+      if you have high perception, it\u2019s impossible to understand what he has
+      said*\r\n"
+    - "Oh, someone needs me, I think you should go now, we\u2019ll talk later. Welcome
+      to Turin, I hope you\u2019ll have a pleasing time. Goodbye, we\u2019ll keep
+      in contact."
+  S_CharacterDialogues:
+  - text:
+    - "It\u2019s a pleasure to be here, count. May I suppose that my Prince has already
+      told you about my presence here?"
+  - text:
+    - "*Formalities, I hate them*\r\n\r\nYes of course, I\u2019m in my 15th year
+      using this mask, and I\u2019ve worked on many cases.\r\n"
+  - text:
+    - Goodbye, Count...
+  endScene: 1

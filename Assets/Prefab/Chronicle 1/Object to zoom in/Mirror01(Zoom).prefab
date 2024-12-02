@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &464456874638186012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244104478592589692}
+  - component: {fileID: 8111683853099851268}
+  m_Layer: 16
+  m_Name: Mirror01(Zoom)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1244104478592589692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464456874638186012}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.12400055, y: 2.731, z: 48.02192}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7932309597595569984}
+  - {fileID: 4434816268283286144}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8111683853099851268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464456874638186012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc2ba6ca1dab624eb697c5702d3fc42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraTransform: {fileID: 7932309597595569984}
+  Mask: {fileID: 0}
+  uniqueID: 16
+  TextPopUp: {fileID: 0}
+  text:
+  - Interesting... I shall translate that
+  IsLastPuzzle: 0
+--- !u!1 &8150709121800552759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7932309597595569984}
+  m_Layer: 16
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7932309597595569984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8150709121800552759}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.48200178, y: 0.14400005, z: 0.82608414}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1244104478592589692}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8743645675653585496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1244104478592589692}
+    m_Modifications:
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0250002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735292482168558178, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_Name
+      value: PF_BathroomMirror (PUZZLE) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735292482168558178, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5735292482168558178, guid: eaeaf62c943d86945a11052afe646c36,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2020654408562606040}
+  m_SourcePrefab: {fileID: 100100000, guid: eaeaf62c943d86945a11052afe646c36, type: 3}
+--- !u!1 &3945277838929053754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5735292482168558178, guid: eaeaf62c943d86945a11052afe646c36,
+    type: 3}
+  m_PrefabInstance: {fileID: 8743645675653585496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2020654408562606040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945277838929053754}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6615381, y: 1.4261045, z: 0.35588074}
+  m_Center: {x: -0.11730552, y: -0.012935877, z: 0.005748749}
+--- !u!4 &4434816268283286144 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4961852488821000408, guid: eaeaf62c943d86945a11052afe646c36,
+    type: 3}
+  m_PrefabInstance: {fileID: 8743645675653585496}
+  m_PrefabAsset: {fileID: 0}

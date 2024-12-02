@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c36aa436027184897f0b71113e17e3, type: 3}
+  m_Name: Dialogue Try
+  m_EditorClassIdentifier: 
+  Background: {fileID: 0}
+  F_Name: Fist Charaxcter
+  S_Name: NPC
+  F_Image: {fileID: 0}
+  S_Image: {fileID: 0}
+  FirstOnRight: 1
+  F_CharacterDialogues:
+  - text:
+    - dialogue test
+    - dialogue test 2
+  - text:
+    - First char answer
+  S_CharacterDialogues:
+  - text:
+    - NPC answer
+  - text:
+    - End of dialogue
+  endScene: 0

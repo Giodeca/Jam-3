@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c36aa436027184897f0b71113e17e3, type: 3}
+  m_Name: Dialogue.C2_Outro
+  m_EditorClassIdentifier: 
+  Background: {fileID: 0}
+  F_Name: Gabriele Colombo
+  S_Name: NPC
+  F_Image: {fileID: 21300000, guid: b6b99e56d680afc498637df3a9ffbf17, type: 3}
+  S_Image: {fileID: 0}
+  FirstOnRight: 1
+  F_CharacterDialogues:
+  - text:
+    - "Now everything has become clear! \r\n\r\nThanks to the file organizer it is
+      simple to understand Anna Lucciobelli\u2019s role in this elaborate plot.\r\n"
+    - "The woman was an archaeologist, she was studying something related to the
+      investigation made by Filippo. That\u2019s why he went to ask her for information.
+      \r\n\r\nBut Anna was working for Vyce, as she was his Ghoul, then Vyce too
+      is involved in the case in a deep way.\r\n"
+    - "- Gran Madre Dio Arms Tien Vero - What does it means? \r\nI have collected
+      files and notes about a mysterious place, seems like an old cave or\u2026 temple?
+      \r\n"
+    - "The vatican is involved for sure: there are many references to the Christianity
+      religion, statues and relics\u2026 \r\n"
+    - "Maybe Filippo is searching for clues at the Gran Madre, but this is not explaining
+      why he is not contacting Machiavelli anymore\u2026 No. Something must have
+      happened to him. I need to go to the Gran Madre, i\u2019m sure Filippo got
+      some information by Anna Himself. \r\n\rI need to move, there\u2019s no time
+      to waste\r\n"
+  S_CharacterDialogues: []
+  endScene: 0

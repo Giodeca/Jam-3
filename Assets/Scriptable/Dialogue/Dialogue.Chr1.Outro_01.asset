@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c36aa436027184897f0b71113e17e3, type: 3}
+  m_Name: Dialogue.Chr1.Outro_01
+  m_EditorClassIdentifier: 
+  Background: {fileID: 0}
+  F_Name: Gabriele Colombo
+  S_Name: NPC
+  F_Image: {fileID: 21300000, guid: b6b99e56d680afc498637df3a9ffbf17, type: 3}
+  S_Image: {fileID: 0}
+  FirstOnRight: 1
+  F_CharacterDialogues:
+  - text:
+    - "Let\u2019s analyze what I've understood\u2026 "
+    - "The Gangrel I\u2019m looking for has brutally murdered a brother\u2019s ghoul\u2026"
+    - "By my sorcery rituals, the result indicates the Victim\u2019s name was Anna
+      Lucciobelli, and her Sire\u2019s name was Achille Fiore, also known as Vyce
+      Miloriedavach. \nI have already heard about this surname, the Miloriedavach
+      family is well known in the Mafia hierarchy. \r\n\r\n"
+    - "Since the blood sorcery has revealed that the victim used two main disciplines:
+      celerity and presence\u2026  and according to the Nightclub environment, and
+      the identity of the Sire\u2026"
+    - "We can affirm that Mr Milorievadach is a Bruja clan member. \r\nDefinitely
+      an important one if he could afford the resources to inscribe a Tremere warding
+      circle in the Bathroom. \r\n"
+    - "Thinking about the homicide dynamic instead, Miss Lucciobelli already knew
+      about the Gangrel's true nature, probably that wasn\u2019t their first encounter\u2026\r\nThat\u2019s
+      why she brought in the bathroom a holy water bottle\u2026\r\n"
+    - "She thought she was safe in the room with the Warding circle, but the Gangrel
+      hadn't taken the door\u2026 he passed through using his mist instead.\r\nThat
+      explains why the holy water has not being used, and why she got murdered so
+      easily\u2026 \r\n"
+    - "But for which reason Filippo went here, to speak to a bruja\u2019s ghoul\u2026
+      \r\nWhy is miss Lucciobelli so important? What\u2019s her relationship with
+      the Vatican? \r\n"
+    - 'I must investigate about this Vyce Miloriedavach if i want to understand clearly
+      what happened
+
+'
+    - "But for which reason Filippo went here, to speak to a bruja\u2019s ghoul\u2026
+      \r\nWhy is miss Lucciobelli so important? What\u2019s her relationship with
+      the Vatican? \r\n"
+  S_CharacterDialogues: []
+  endScene: 1
